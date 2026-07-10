@@ -14,6 +14,7 @@ func Hello(name string) (string, error) {
 		return "", errors.New("empty name")
 	}
 	// 返回在消息中嵌入名称的问候语.
+	// message := fmt.Sprintf(randomFormat(), name)
 	message := fmt.Sprintf(randomFormat(), name)
 	return message, nil
 }

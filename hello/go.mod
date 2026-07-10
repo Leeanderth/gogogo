@@ -12,4 +12,4 @@ require (
 	rsc.io/sampler v1.3.0 // indirect
 )
 
-replace example.com/greetings => ./greetings
+replace example.com/greetings => ../greetings
