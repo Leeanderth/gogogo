@@ -1,4 +1,4 @@
-module example/user/hello
+module github.com/Leeanderth/gogogo/hello
 
 go 1.26.5
 
