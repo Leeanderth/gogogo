@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/Leeanderth/gogogo/hello/morestrings"
+)
 
 type Number interface {
 	int64 | float64
@@ -42,6 +46,9 @@ func ISumIntsOrFloats[K comparable, V Number](m map[K]V) V {
 }
 
 func main() {
+	str := "hello word"
+
+	fmt.Println(morestrings.ReverseRunes(str))
 	ints := map[string]int64{
 		"first":  34,
 		"second": 12,
